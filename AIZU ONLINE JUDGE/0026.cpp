@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 #include <string>
-#include <sstream>
 using namespace std;
 
 #define Vint vector<int>
@@ -32,7 +31,6 @@ int VVint_max(VVint vv) {
 int main() {
 	int x, y, s;
 	char cha;
-	string str, str_x, str_y, str_s;
 	VVint vec(10, Vint(10, 0));
 	while (cin >> x >> cha >> y >> cha >> s) {
 		vec[y][x] += 1;
